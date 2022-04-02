@@ -1,4 +1,7 @@
 header{
+    font-size: 44px;
+    text-align:center;
+    color:rgb(61, 10, 61);
     background-color: aquamarine;
     width: 100%;
     height: fit-content;
@@ -6,17 +9,28 @@ header{
 
 }
 section{
+    list-style: none;
+    font-size: 34px;
     width: 70%;
-    height: 250px;
+    height: 450px;
     float: left;
     background-color:wheat;
 
   }
 aside{
+    font-size: 22px;
     width: 30%;
-    height: 250px;
+    height: 450px;
       float: left;
       background-color:rgb(212, 183, 129);
+  }
+  aside li a{
+      text-decoration: none;
+      font-size:18px;
+      float: left;
+  }
+  aside li a:hover{
+      color: blue;
   }
 footer{
     clear: both;
