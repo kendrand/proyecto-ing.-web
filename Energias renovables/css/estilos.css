@@ -32,6 +32,10 @@ aside{
   aside li a:hover{
       color: blue;
   }
+  aside li {
+      clear: both;
+      float: left;
+  }
 footer{
     clear: both;
     background-color:cadetblue;
