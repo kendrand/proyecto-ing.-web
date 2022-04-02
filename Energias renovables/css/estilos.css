@@ -1,22 +1,29 @@
 header{
     background-color: aquamarine;
     width: 100%;
-    position: fixed;
+    height: fit-content;
+    clear: both;
+
 }
+section{
+    width: 70%;
+    height: 250px;
+    float: left;
+    background-color:wheat;
+
+  }
+aside{
+    width: 30%;
+    height: 250px;
+      float: left;
+      background-color:rgb(212, 183, 129);
+  }
 footer{
+    clear: both;
     background-color:cadetblue;
     width: 100%;
-    height:90px;
+    position: sticky;
     text-align: center;
     display: table;
-    position:fixed;
-  }
-  section{
-      float: left;
-      background-color: brown;
-      margin: 10%;
-  }
-  aside{
-      float: left;
-      background-color: darkgoldenrod;
+    position:relative;
   }
