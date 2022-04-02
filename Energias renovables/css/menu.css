@@ -1,5 +1,12 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+html{
+    background: fixed;
+}
 header{
-    float: inline-start;
+    text-align: center;
     font-size:22px;
     color:rgb(78, 61, 227);
     font-weight: bold;
