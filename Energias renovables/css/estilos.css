@@ -1,47 +1,36 @@
 header{
-    font-size: 44px;
-    text-align:center;
-    color:rgb(61, 10, 61);
-    background-color: aquamarine;
-    width: 100%;
-    height: fit-content;
-    clear: both;
+  font-size: 44px;
+  text-align:center;
+  color:rgb(61, 10, 61);
+  background-color: aquamarine;
+  width: 100%;
+  height: fit-content;
+  clear: both;
 
 }
 section{
-    list-style: none;
-    font-size: 34px;
-    width: 70%;
-    height: 450px;
-    float: left;
-    background-color:wheat;
+  list-style: none;
+  font-size: 34px;
+  width: 70%;
+  height: 1000px;
+  float: left;
+  background-color:wheat;
 
-  }
+}
 aside{
-    font-size: 22px;
-    width: 30%;
-    height: 450px;
-      float: left;
-      background-color:rgb(212, 183, 129);
-  }
-  aside li a{
-      text-decoration: none;
-      font-size:18px;
-      float: left;
-  }
-  aside li a:hover{
-      color: blue;
-  }
-  aside li {
-      clear: both;
-      float: left;
-  }
+  font-size: 22px;
+  width: 30%;
+  height: 1000px;
+    float: left;
+    background-color:rgb(212, 183, 129);
+}
+
 footer{
-    clear: both;
-    background-color:cadetblue;
-    width: 100%;
-    position: sticky;
-    text-align: center;
-    display: table;
-    position:relative;
-  }
+  clear: both;
+  background-color:cadetblue;
+  width: 100%;
+  position: sticky;
+  text-align: center;
+  display: table;
+  position:relative;
+}
