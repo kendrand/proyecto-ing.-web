@@ -19,6 +19,9 @@ li{
 }
 #solar {
     background-color: wheat;
+    h1{
+        background-color: $sol;
+    }
     div.col-md-4, div.col-md-6{   
         background-color:$sol;
     }
@@ -29,6 +32,9 @@ li{
 
 #eolico {
     background-color: wheat;
+    h1{
+        background-color: $eolico;
+    }
     div.col-md-4, div.col-md-6{   
         background-color:$eolico;
     }
@@ -39,6 +45,9 @@ li{
 
 #agua {
     background-color: wheat;
+    h1{
+        background-color: $agua;
+    }
     div.col-md-4, div.col-md-6{   
         background-color:$agua;
     }
@@ -49,6 +58,9 @@ li{
 
 #geo {
     background-color: wheat;
+    h1{
+        background-color: $geo;
+    }
     div.col-md-4, div.col-md-6{   
         background-color:$geo;
     }
