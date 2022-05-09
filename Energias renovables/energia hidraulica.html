@@ -12,33 +12,76 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/menu.css">
         <link rel="stylesheet" href="css/energiaEstilos.css" type="text/css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header><h1>Energía Hidraulica</h1></header>
-        <nav>
-            <ul id="menu">
-                <li ><a href="index.html" title="inicio">Inicio</a></li>
-                <li ><a href="energia eolica.html" title="Energía Eolica">Energía Eólica</a></li>
-                <li ><a href="energia solar.html" title="Energía Solar">Energía Solar</a></li>
-                <li ><a href="energia geotermica.html" title="Energía Geotermica">Energía Geotérmica</a></li>
-            </ul>
-        </nav>
-        <section id="imagen1">
-            <li><img src="multimedia/02.jpg" alt=""></li>
-        </section>
-        <aside>
-            <li>información</li>
-        </aside>
-        <aside>información</aside>
-        <section id="imagen2">
-            <li><img src="multimedia/02.jpg"width="200" height="200" alt=""></li>
-        </section>
-        <section id="imagen3">
-            <li><img src="multimedia/02.jpg"width="200" height="200" alt=""></li>
-        </section>
-        <footer><span>Referencias</span></footer>
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"><button type="button" class="btn btn-primary">Inicio</button></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="energia solar.html"><button type="button" class="btn btn-primary">Energía Solar</button></a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link disabled"><button type="button" class="btn btn-outline-primary">Energía Hidraulica</button></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="energia eolica.html"><button type="button" class="btn btn-primary">Energía Eólica</button></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="energia geotermica.html"><button type="button" class="btn btn-primary">Energía Geotérmica</button></a>
+            </li>
+        </ul>
+        <div class="row">
+            <div class="col-md-4">
+                <p>La energía hidráulica, también conocida como energía hidroeléctrica, es aquella energía alternativa que se obtiene del aprovechamiento de las energías cinéticas y potenciales de la corriente del agua, saltos de agua o mareas, ya sea mediante molinos o presas, por ejemplo.</p>
+                <p>Siempre se ha dicho que es importante que la electricidad y el agua no entren en contacto, pero la una nutre a la otra; la fuerza y el movimiento del agua de ríos o mares se usa para generar electricidad, es decir, energía hidráulica.</p>
+                <p>Esta electricidad se obtiene en las centrales hidroeléctricas, las cuales embalsan agua de los ríos en presas y esta es liberada de forma controlada, haciendo que mueva una turbina y generando electricidad. Algunas presas funcionan sobre todo el caudal del río mientras que otras desvían parte de su corriente.</p>
+            </div>
+            <div class="col-md-5">
+                <img  src="multimedia/1.png" width="75%" height="75%" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="multimedia/1.png" class="card-img-top" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Gato</h5>
+                      <p class="card-text">efectivamente, un gato.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="multimedia/Logo.png" class="card-img-top" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">el logo </h5>
+                      <p class="card-text">Yeah perdonen kamehameha.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="multimedia/1.png" class="card-img-top" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">AAAAAAAAAAAAAAAAAAAA</h5>
+                      <p class="card-text">AAAAAAAAAAAAAAAAAAAAAA.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+        <footer><span>Realizado por : Alexis Armijo/José Hinojosa</span></footer>
     </body>
 </html>
