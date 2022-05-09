@@ -19,6 +19,10 @@ li {
   background-color: wheat;
 }
 
+#solar h1 {
+  background-color: #f8d614;
+}
+
 #solar div.col-md-4, #solar div.col-md-6 {
   background-color: #f8d614;
 }
@@ -29,6 +33,10 @@ li {
 
 #eolico {
   background-color: wheat;
+}
+
+#eolico h1 {
+  background-color: #39e77c;
 }
 
 #eolico div.col-md-4, #eolico div.col-md-6 {
@@ -43,6 +51,10 @@ li {
   background-color: wheat;
 }
 
+#agua h1 {
+  background-color: #34e4f1;
+}
+
 #agua div.col-md-4, #agua div.col-md-6 {
   background-color: #34e4f1;
 }
@@ -53,6 +65,10 @@ li {
 
 #geo {
   background-color: wheat;
+}
+
+#geo h1 {
+  background-color: #c9700a;
 }
 
 #geo div.col-md-4, #geo div.col-md-6 {
